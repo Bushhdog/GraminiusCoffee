@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graminius Coffee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="hero" class="hero-section">
+        <h1>Graminius Coffee</h1>
+        <p>Simplicidade que aquece.</p>
+        <a class="btn-primary" href="#menu">Ver Menu</a>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-text">
+                <h1>Sobre Nós</h1>
+                <h3>Uma história que começa na terra.</h3>
+                <hr>
+                <p>A Graminius Coffee nasceu de uma fazenda familiar no interior de Minas Gerais, onde por gerações a família Canis cultivou café com paciência e respeito pelo solo. O que começou como tradição virou paixão, e a paixão, um lugar.</p>
+                <p>Abrimos nossas portas para levar até você o mesmo grão colhido à mão, da mesma terra de sempre. Sem pressa, sem exageros. Só o café no seu melhor estado.</p>
+                <p> Com o tempo, os grãos que antes abasteciam apenas a família passaram a encantar vizinhos e amigos. Foi aí que surgiu a ideia: por que não levar esse café para mais pessoas? A cafeteria nasceu não como um negócio, mas como um gesto — o de compartilhar o que sempre foi feito com cuidado.</p>
+                <p>Hoje, cada xícara servida na Graminius carrega um pouco daquela fazenda. Um lugar onde o tempo passa mais devagar, onde o café é pretexto pra boas conversas.</p>
+                <p><strong>Bem vindo.</strong></p>
+                <hr>
+            </div>
+        </div>
+        <img src="img/about_img.jpg" alt="Produtor colhendo café">
+    </section>
+
+    <section id="menu" class="menu-section">
+
+        <h2>Nosso Menu</h2>
+  
+        <div class="menu-filters">
+            <button class="filter-btn active" data-filter="quentes">Cafés Quentes</button>
+            <button class="filter-btn" data-filter="frios">Bebidas Frias</button>
+            <button class="filter-btn" data-filter="doces">Doces</button>
+        </div>
+
+        <div class="menu-grid">
+            <div class="menu-card" data-category="quentes">
+                <img src="..." alt="Espresso Graminius">
+                <h3>Espresso Graminius</h3>
+                <p>Encorpado, intenso, puro.</p>
+                <span class="price">R$ 8</span>
+            </div>
+
+            <div class="menu-card" data-category="quentes">
+                <img src="..." alt="Cappuccino da Fazenda">
+                <h3>Cappuccino da Fazenda</h3>
+                <p>Espresso com leite vaporizado e canela</p>
+                <span class="price">R$ 14</span>
+            </div>
+
+            <div class="menu-card" data-category="quentes">
+                <img src="..." alt="Latte de Baunilha">
+                <h3>Latte de Baunilha</h3>
+                <p>Suave e adocicado, com toque de baunilha</p>
+                <span class="price">R$ 16</span>
+            </div>
+
+            <div class="menu-card" data-category="quentes">
+                <img src="..." alt="Café com Leite">
+                <h3>Café com Leite</h3>
+                <p>Clássico de sempre, feito com carinho</p>
+                <span class="price">R$ 10</span>
+            </div>
+
+            <div class="menu-card" data-category="quentes">
+                <img src="..." alt="Mocha Floresta">
+                <h3>Mocha Floresta</h3>
+                <p>Espresso, chocolate e leite cremoso</p>
+                <span class="price">R$ 17</span>
+            </div>
+
+            <div class="menu-card" data-category="quentes">
+                <img src="..." alt="Flat White">
+                <h3>Flat White</h3>
+                <p>Espresso duplo com microespuma sedosa</p>
+                <span class="price">R$ 15</span>
+            </div>
+            <!-- Bebidas Frias -->
+            <div class="menu-card" data-category="frios">
+                <img src="..." alt="Cold Brew Canis">
+                <h3>Cold Brew Canis</h3>
+                <p>24h de extração lenta, servido gelado</p>
+                <span class="price">R$ 16</span>
+            </div>
+
+            <div class="menu-card" data-category="frios">
+                <img src="..." alt="Iced Latte">
+                <h3>Iced Latte</h3>
+                <p>Espresso com leite e gelo</p>
+                <span class="price">R$ 15</span>
+            </div>
+
+            <div class="menu-card" data-category="frios">
+                <img src="..." alt="Frappé de Caramelo">
+                <h3>Frappé de Caramelo</h3>
+                <p>Cremoso, gelado, com calda de caramelo</p>
+                <span class="price">R$ 18</span>
+            </div>
+
+            <div class="menu-card" data-category="frios">
+                <img src="..." alt="Matcha Latte Gelado">
+                <h3>Matcha Latte Gelado</h3>
+                <p>Matcha premium com leite de aveia</p>
+                <span class="price">R$ 19</span>
+            </div>
+
+            <div class="menu-card" data-category="frios">
+                <img src="..." alt="Cold Brew Tônica">
+                <h3>Cold Brew Tônica</h3>
+                <p>Cold brew com água tônica e laranja</p>
+                <span class="price">R$ 17</span>
+            </div>
+
+            <div class="menu-card" data-category="frios">
+                <img src="..." alt="Chocolate Gelado">
+                <h3>Chocolate Gelado</h3>
+                <p>Chocolate belga com leite e gelo</p>
+                <span class="price">R$ 16</span>
+            </div>
+
+            <div class="menu-card" data-category="doces">
+                <img src="..." alt="Bolo de Cenoura">
+                <h3>Bolo de Cenoura</h3>
+                <p>Com cobertura de chocolate meio amargo</p>
+                <span class="price">R$ 12</span>
+            </div>
+
+            <div class="menu-card" data-category="doces">
+                <img src="..." alt="Torta de Limão">
+                <h3>Torta de Limão</h3>
+                <p>Cremosa, equilibrada, levemente ácida</p>
+                <span class="price">R$ 14</span>
+            </div>
+
+            <div class="menu-card" data-category="doces">
+                <img src="..." alt="Brownie com Nozes">
+                <h3>Brownie com Nozes</h3>
+                <p>Denso e fudgy, com nozes</p>
+                <span class="price">R$ 13</span>
+            </div>
+
+            <div class="menu-card" data-category="doces">
+                <img src="..." alt="Cheesecake de Frutas">
+                <h3>Cheesecake de Frutas</h3>
+                <p>Base de biscoito, recheio cremoso</p>
+                <span class="price">R$ 15</span>
+            </div>
+
+            <div class="menu-card" data-category="doces">
+                <img src="..." alt="Croissant de Manteiga">
+                <h3>Croissant de Manteiga</h3>
+                <p>Folhado, fresco, servido aquecido</p>
+                <span class="price">R$ 11</span>
+            </div>
+
+            <div class="menu-card" data-category="doces">
+                <img src="..." alt="Pão de Mel">
+                <h3>Pão de Mel</h3>
+                <p>Cobertura de chocolate, recheio de doce de leite</p>
+                <span class="price">R$ 10</span>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="hero2" class="hero-section2">
+        <h1>Graminius Coffee</h1>
+        <p>Simplicidade que aquece.</p>
+        <button>Ver Menu</button>
+    </section>
+    
+    <script src="script.js" defer></script>
+</body>
+</html>
