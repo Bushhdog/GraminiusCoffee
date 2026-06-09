@@ -125,9 +125,10 @@ html{
   justify-content: center;
   align-items: center;
   background-color: var(--color-surface);
-  gap: 128px;
+  gap: var(--spacing-xl);
   min-height: 100vh;
   padding: var(--spacing-xl) var(--spacing-lg);
+  flex-wrap: wrap;
 }
 
 .about-container {
