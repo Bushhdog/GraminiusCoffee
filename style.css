@@ -388,25 +388,31 @@ html{
   padding-top: var(--spacing-md);
 }
 
-@media (max-width: 768px) {
-  .footer-container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-}
-
-@media (max-width: 900px) {
-  .reviews-grid {
-    grid-template-columns: 1fr;
-    max-width: 500px;
-  }
-}
 
 /* Responsivo */
 @media (max-width: 900px) {
   .menu-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .reviews-grid {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+  }
+  .about-container {
+    flex-direction: column;
+  }
+
+  .about-section img {
+    width: 100%;
+    max-width: 480px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }
 
@@ -420,14 +426,4 @@ html{
   }
 }
 
-@media (max-width: 900px) {
-  .about-container {
-    flex-direction: column;
-  }
-
-  .about-section img {
-    width: 100%;
-    max-width: 480px;
-  }
-}
 
